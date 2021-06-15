@@ -1066,6 +1066,30 @@ ul {
   margin-left: 10px;
 }
 
+.yk {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 26px;
+  height: 26px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.yk-txt {
+  color: rgba(0, 0, 0, 0.03);
+}
+
 .filter__button {
   background-color: var(--button-bg);
   color: var(--main-color);
