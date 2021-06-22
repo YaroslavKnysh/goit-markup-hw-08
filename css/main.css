@@ -119,6 +119,10 @@ ul {
   fill: var(--button);
 }
 
+.header_mobile-menu--container {
+  position: relative;
+}
+
 .header_mobile-button--close {
   position: absolute;
   top: 10px;
@@ -136,10 +140,8 @@ ul {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
-
-.header_mobile-menu--container {
-  position: relative;
+  -webkit-transition: opacity 250ms linear, visibility 250ms linear;
+  transition: opacity 250ms linear, visibility 250ms linear;
 }
 
 .header_mobile-menu.is-open {
@@ -160,13 +162,6 @@ ul {
 .contacts__link:hover,
 .contacts__link:focus {
   color: var(--text-link-selection);
-}
-
-@media screen and (max-width: 767px) {
-  .navigation__link,
-  .contacts__link {
-    display: none;
-  }
 }
 
 .navigation__link {
