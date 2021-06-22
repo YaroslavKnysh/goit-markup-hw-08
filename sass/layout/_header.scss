@@ -1,3 +1,10 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-family: var(--secondary-font-family);
   font-weight: 700;
@@ -13,6 +20,16 @@
   }
 }
 
+// .header_button-mobile {
+//   width: 40px;
+//   height: 40px;
+//   background-color: transparent;
+//   border: none;
+//   padding: 0;
+// }
+// .header_button-icon {
+//   fill: #000;
+// }
 .navigation__link,
 .contacts__link {
   font-weight: 500;
@@ -22,6 +39,10 @@
   &:hover,
   &:focus {
     color: var(--text-link-selection);
+  }
+
+  @media screen and (max-width: 767px) {
+    display: none;
   }
 }
 .navigation__link {
@@ -73,13 +94,6 @@
   animation: blue-line-header 300ms linear;
 }
 
-.header {
-  border-bottom: 1px solid #ececec;
-}
-.header__container {
-  display: flex;
-  align-items: center;
-}
 .navigation {
   display: flex;
   align-items: center;

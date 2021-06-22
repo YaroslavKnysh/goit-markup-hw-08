@@ -164,6 +164,12 @@
             </li>
           </ul>
         </nav>
+        <!-- <button class="header_button-mobile" type="button">
+          <svg class="header_button-icon" width="24" height="16">
+            <use href="./images/icons.svg#menu-burger"></use>
+          </svg>
+        </button> -->
+
         <ul class="ul-style contacts">
           <li class="contacts__item">
             <a
@@ -244,30 +250,78 @@
           <h2 class="we-doing__title">Чем мы занимаемся</h2>
           <ul class="we-doing__list ul-style">
             <li class="we-doing__item">
-              <img
-                class="we-doing__img"
-                src="./images/box1.jpg"
-                alt="Мужчина набирает текст на клавиатуре"
-                width="370"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/web_studia_desktop/box.jpg    1x,
+                    ./images/web_studia_desktop/box@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_desktop/box.webp    1x,
+                    ./images/web_studia_desktop/box@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="we-doing__img"
+                  src="#"
+                  alt="Мужчина набирает текст на клавиатуре"
+                  width="370"
+                />
+              </picture>
               <p class="we-doing__label desktop-label">Десктопные приложения</p>
             </li>
             <li class="we-doing__item">
-              <img
-                class="we-doing__img"
-                src="./images/box2.jpg"
-                alt="Девушка работает с телефоном и ноутбуком"
-                width="370"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/web_studia_desktop/box2.jpg    1x,
+                    ./images/web_studia_desktop/box2@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_desktop/box2.webp    1x,
+                    ./images/web_studia_desktop/box2@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="we-doing__img"
+                  src="#"
+                  alt="Девушка работает с телефоном и ноутбуком"
+                  width="370"
+                />
+              </picture>
               <p class="we-doing__label mobile-label">Мобильные приложения</p>
             </li>
             <li class="we-doing__item">
-              <img
-                class="we-doing__img"
-                src="./images/box3.jpg"
-                alt="Мужчина выбирает цвет в палитре на планшете"
-                width="370"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/web_studia_desktop/box3.jpg    1x,
+                    ./images/web_studia_desktop/box3@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_desktop/box3.webp    1x,
+                    ./images/web_studia_desktop/box3@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="we-doing__img"
+                  src="#"
+                  alt="Мужчина выбирает цвет в палитре на планшете"
+                  width="370"
+                />
+              </picture>
               <p class="we-doing__label design-label">Дизайнерские решения</p>
             </li>
           </ul>
@@ -281,12 +335,51 @@
 
           <ul class="team__list ul-style">
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/img1.jpg"
-                alt="Фото мужчины"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/web_studia_desktop/img.jpg    1x,
+                    ./images/web_studia_desktop/img@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_desktop/img.webp    1x,
+                    ./images/web_studia_desktop/img@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studio_tablet/img.jpg    1x,
+                    ./images/web_studio_tablet/img@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studio_tablet/img.webp    1x,
+                    ./images/web_studio_tablet/img@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_mobile/img.jpg    1x,
+                    ./images/web_studia_mobile/img@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_mobile/img.webp    1x,
+                    ./images/web_studia_mobile/img@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img class="team__img" src="#" alt="Фото мужчины" width="270" />
+              </picture>
               <div class="team-person">
                 <h3 class="team-person__title">Игорь Демьяненко</h3>
                 <p lang="en" class="team-person__position">Product Designer</p>
@@ -323,12 +416,51 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/img2.jpg"
-                alt="Фото девушки"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/web_studia_desktop/img1.jpg    1x,
+                    ./images/web_studia_desktop/img1@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_desktop/img1.webp    1x,
+                    ./images/web_studia_desktop/img1@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studio_tablet/img1.jpg    1x,
+                    ./images/web_studio_tablet/img1@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studio_tablet/img1.webp    1x,
+                    ./images/web_studio_tablet/img1@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_mobile/img1.jpg    1x,
+                    ./images/web_studia_mobile/img1@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_mobile/img1.webp    1x,
+                    ./images/web_studia_mobile/img1@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img class="team__img" src="#" alt="Фото девушки" width="270" />
+              </picture>
               <div class="team-person">
                 <h3 class="team-person__title">Ольга Репина</h3>
                 <p lang="en" class="team-person__position">
@@ -367,12 +499,51 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/img3.jpg"
-                alt="Фото мужчины"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/web_studia_desktop/img2.jpg    1x,
+                    ./images/web_studia_desktop/img2@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_desktop/img2.webp    1x,
+                    ./images/web_studia_desktop/img2@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studio_tablet/img2.jpg    1x,
+                    ./images/web_studio_tablet/img2@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studio_tablet/img2.webp    1x,
+                    ./images/web_studio_tablet/img2@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_mobile/img2.jpg    1x,
+                    ./images/web_studia_mobile/img2@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_mobile/img2.webp    1x,
+                    ./images/web_studia_mobile/img2@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img class="team__img" src="#" alt="Фото мужчины" width="270" />
+              </picture>
               <div class="team-person">
                 <h3 class="team-person__title">Николай Тарасов</h3>
                 <p lang="en" class="team-person__position">Marketing</p>
@@ -409,12 +580,51 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                class="team__img"
-                src="./images/img4.jpg"
-                alt="Фото мужчины"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/web_studia_desktop/img3.jpg    1x,
+                    ./images/web_studia_desktop/img3@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_desktop/img3.webp    1x,
+                    ./images/web_studia_desktop/img3@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studio_tablet/img3.jpg    1x,
+                    ./images/web_studio_tablet/img3@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studio_tablet/img3.webp    1x,
+                    ./images/web_studio_tablet/img3@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_mobile/img3.jpg    1x,
+                    ./images/web_studia_mobile/img3@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/web_studia_mobile/img3.webp    1x,
+                    ./images/web_studia_mobile/img3@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img class="team__img" src="#" alt="Фото мужчины" width="270" />
+              </picture>
               <div class="team-person">
                 <h3 class="team-person__title">Михаил Ермаков</h3>
                 <p lang="en" class="team-person__position">UI Designer</p>
