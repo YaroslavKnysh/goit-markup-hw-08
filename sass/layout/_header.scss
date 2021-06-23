@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .header {
     border-bottom: 1px solid #ececec;
   }
@@ -20,6 +20,11 @@
       color: var(--logoweb);
     }
   }
+  .header_mobile-button--open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .header_mobile-button--open,
   .header_mobile-button--close {
     width: 40px;
@@ -40,6 +45,8 @@
     position: relative;
   }
   .header_mobile-button--close {
+    width: 40px;
+    height: 40px;
     position: absolute;
     top: 10px;
     right: 15px;
@@ -64,7 +71,39 @@
       z-index: 55;
     }
   }
+
+  .navigation__list--mobile {
+    padding-top: 48px;
+    padding-left: 40px;
+  }
+  .navigation__link--mobile {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    display: block;
+    margin-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--button);
+    }
+  }
+
+  .navigation__link-contacts-mob {
+    margin-bottom: 302px;
+  }
+  .contacts--mobile {
+    display: block;
+    padding-left: 40px;
+
+    &:not(:last-child) {
+      margin-bottom: 32px;
+    }
+  }
 }
+
 // Моб граница
 
 // .logo {
