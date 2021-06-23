@@ -42,11 +42,12 @@ ul {
 .container {
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {
   .container {
-    width: 480px;
+    max-width: 767px;
   }
 }
 
@@ -96,7 +97,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .header {
     border-bottom: 1px solid #ececec;
   }
@@ -107,6 +108,9 @@ ul {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .logo {
     font-family: var(--secondary-font-family);
@@ -116,7 +120,6 @@ ul {
     color: var(--logo);
     padding-top: 16px;
     padding-bottom: 16px;
-    margin-right: 276px;
   }
   .logo--web {
     color: var(--logoweb);
