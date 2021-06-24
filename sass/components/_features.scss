@@ -5,6 +5,9 @@
 }
 
 @media screen and (min-width: 480px) {
+  .features__title {
+    text-align: center;
+  }
   .features__item {
     width: 450px;
 
@@ -57,14 +60,86 @@
   .features__description {
     line-height: 1.71;
     color: var(--text-color);
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) {
+  .features__title {
+    text-align: left;
+  }
+
+  .features__item {
+    width: 354px;
+
+    &.antenna-icon::before {
+      content: '';
+      display: block;
+      width: 354px;
+      height: 120px;
+      background-color: #f5f4fa;
+      margin-bottom: 30px;
+      background-image: url(../images/antenna.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    &.clock-icon::before {
+      content: '';
+      display: block;
+      width: 354px;
+      height: 120px;
+      background-color: #f5f4fa;
+      margin-bottom: 30px;
+      background-image: url(../images/clock.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    &.diagram-icon::before {
+      content: '';
+      display: block;
+      width: 354px;
+      height: 120px;
+      background-color: #f5f4fa;
+      margin-bottom: 30px;
+      background-image: url(../images/diagram.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    &.astronaut-icon::before {
+      content: '';
+      display: block;
+      width: 354px;
+      height: 120px;
+      background-color: #f5f4fa;
+      margin-bottom: 30px;
+      background-image: url(../images/astronaut.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  .features__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+    margin-bottom: -30px;
+  }
+  .features__item {
+    flex-basis: calc(100% / 2 - 30px);
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .features__description {
+    line-height: 1.71;
+    color: var(--text-color);
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .features__item {
     width: 270px;
+    margin-bottom: 0;
 
     &.antenna-icon::before {
       content: '';
@@ -118,8 +193,14 @@
   .features__description {
     line-height: 1.71;
     color: var(--text-color);
+    margin-bottom: 0;
   }
+
   .features__list {
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-right: 0;
+    margin-bottom: 0;
   }
 }
