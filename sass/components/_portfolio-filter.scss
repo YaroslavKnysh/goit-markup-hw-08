@@ -27,7 +27,7 @@
 .filter__item:not(:last-child) {
   margin-right: 8px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width:767px) {
   .filter__list {
     display: flex;
     flex-wrap: wrap;

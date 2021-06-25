@@ -29,7 +29,7 @@
     fill: var(--text-link-selection);
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width:767px) {
   .clients__link {
     width: 210px;
     height: 92px;

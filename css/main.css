@@ -111,7 +111,7 @@ ul {
           align-items: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .header {
     border-bottom: 1px solid #ececec;
   }
@@ -589,7 +589,7 @@ ul {
   background-color: #188ce8;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .hero__title {
     font-weight: 900;
     color: var(--secondary-text-color);
@@ -619,7 +619,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .hero {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/web_studia_mobile/imghero@2x.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/web_studia_mobile/imghero@2x.jpg);
@@ -765,7 +765,7 @@ ul {
   background-color: var(--background-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .modal {
     width: 450px;
     height: 609px;
@@ -856,7 +856,7 @@ ul {
   color: var(--text-link-selection);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .modal-form-container {
     padding: 40px 38px;
   }
@@ -1076,7 +1076,7 @@ ul {
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .features__title {
     text-align: center;
   }
@@ -1279,7 +1279,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .we-doing {
     display: none;
   }
@@ -1473,7 +1473,7 @@ ul {
   border-bottom-left-radius: 4px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .team__title {
     font-size: 28px;
   }
@@ -1598,7 +1598,7 @@ ul {
   fill: var(--text-link-selection);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .clients__link {
     width: 210px;
     height: 92px;
@@ -1822,7 +1822,21 @@ ul {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+.footer {
+  background-color: var(--secondary-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.logo-footer {
+  color: var(--secondary-text-color);
+  display: block;
+  margin-bottom: 20px;
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1199px) {
   .footer--flex {
     display: block;
     text-align: center;
@@ -1835,17 +1849,7 @@ ul {
   .adress__link--opacity {
     opacity: 60%;
   }
-  .footer {
-    background-color: var(--secondary-bg-color);
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
   .logo-footer {
-    color: var(--secondary-text-color);
-    display: block;
-    margin-bottom: 20px;
-    font-family: var(--secondary-font-family);
-    font-weight: 700;
     font-size: 24px;
   }
   .adress {
@@ -1927,11 +1931,6 @@ ul {
   .adress__link--opacity {
     opacity: 60%;
   }
-  .footer {
-    background-color: var(--secondary-bg-color);
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
   .footer_tablet--flex {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1949,11 +1948,6 @@ ul {
             align-items: baseline;
   }
   .logo-footer {
-    color: var(--secondary-text-color);
-    display: block;
-    margin-bottom: 20px;
-    font-family: var(--secondary-font-family);
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.15;
   }
@@ -2016,7 +2010,7 @@ ul {
   margin-right: 8px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .filter__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2141,7 +2135,7 @@ ul {
           box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .portfolio__list {
     display: block;
     text-align: center;
