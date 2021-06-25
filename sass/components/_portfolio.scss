@@ -12,6 +12,7 @@
 }
 .portfolio__img {
   display: block;
+  width: 100%;
 }
 .portfolio-photo-caption {
   padding: 20px 24px;
@@ -61,7 +62,7 @@
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .portfolio__list {
     display: block;
     text-align: center;

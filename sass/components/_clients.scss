@@ -31,7 +31,7 @@
 }
 @media screen and (max-width: 767px) {
   .clients__link {
-    width: 210px;
+    max-width: 210px;
     height: 92px;
   }
   .clients__title {

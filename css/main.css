@@ -607,8 +607,8 @@ ul {
     padding-bottom: 118px;
     -webkit-box-shadow: 0px 4px 4px 0px #00000040;
             box-shadow: 0px 4px 4px 0px #00000040;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/web_studia_mobile/imghero.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/web_studia_mobile/imghero.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/web_studia_mobile/imghero.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/web_studia_mobile/imghero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -621,8 +621,8 @@ ul {
 
 @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/web_studia_mobile/imghero@2x.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/web_studia_mobile/imghero@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/web_studia_mobile/imghero@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/web_studia_mobile/imghero@2x.jpg);
   }
 }
 
@@ -632,8 +632,8 @@ ul {
     padding-bottom: 118px;
     -webkit-box-shadow: 0px 4px 4px 0px #00000040;
             box-shadow: 0px 4px 4px 0px #00000040;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/web_studio_tablet/imghero.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/web_studio_tablet/imghero.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/web_studio_tablet/imghero.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/web_studio_tablet/imghero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -646,8 +646,8 @@ ul {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/web_studio_tablet/imghero@2x.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/web_studio_tablet/imghero@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/web_studio_tablet/imghero@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/web_studio_tablet/imghero@2x.jpg);
   }
 }
 
@@ -684,8 +684,8 @@ ul {
     padding-bottom: 200px;
     -webkit-box-shadow: 0px 4px 4px 0px #00000040;
             box-shadow: 0px 4px 4px 0px #00000040;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/web_studia_desktop/imghero.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/web_studia_desktop/imghero.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/..images/web_studia_desktop/imghero.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/..images/web_studia_desktop/imghero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -698,8 +698,8 @@ ul {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/web_studia_desktop/imghero@2x.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/web_studia_desktop/imghero@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/web_studia_desktop/imghero@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/web_studia_desktop/imghero@2x.jpg);
   }
 }
 
@@ -1400,6 +1400,7 @@ ul {
 
 .team__img {
   display: block;
+  width: 100%;
 }
 
 .team-person {
@@ -1484,7 +1485,16 @@ ul {
     margin-bottom: 30px;
   }
   .team-social {
-    padding: 0 122px 24px;
+    padding-bottom: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -1603,7 +1613,7 @@ ul {
 
 @media screen and (max-width: 767px) {
   .clients__link {
-    width: 210px;
+    max-width: 210px;
     height: 92px;
   }
   .clients__title {
@@ -2083,6 +2093,7 @@ ul {
 
 .portfolio__img {
   display: block;
+  width: 100%;
 }
 
 .portfolio-photo-caption {
