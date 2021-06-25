@@ -29,7 +29,7 @@
     fill: var(--text-link-selection);
   }
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .clients__link {
     width: 210px;
     height: 92px;
@@ -54,6 +54,10 @@
   .clients__link {
     width: 226px;
     height: 92px;
+  }
+  .clients__title {
+    font-size: 28px;
+    margin-bottom: 30px;
   }
   .clients__list {
     display: flex;
