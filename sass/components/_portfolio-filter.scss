@@ -24,13 +24,33 @@
       0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   }
 }
-
-.filter__list {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 50px;
-}
 .filter__item:not(:last-child) {
   margin-right: 8px;
+}
+@media screen and (min-width: 480px) {
+  .filter__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 50px;
+  }
+  .filter__item:first-child {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .filter__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .filter__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
 }

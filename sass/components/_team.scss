@@ -76,7 +76,7 @@
   border-bottom-left-radius: 4px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .team__title {
     font-size: 28px;
   }
@@ -114,10 +114,6 @@
     display: flex;
   }
 
-  .team__item:not(:last-child) {
-    margin-right: 30px;
-  }
-
   .team-social {
     padding: 0 32px 30px;
   }
@@ -130,5 +126,8 @@
   }
   .team__item {
     margin-bottom: 0;
+  }
+  .team__item:not(:last-child) {
+    margin-right: 30px;
   }
 }
