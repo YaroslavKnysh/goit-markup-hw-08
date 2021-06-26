@@ -761,24 +761,17 @@ ul {
 
 .modal {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   background-color: var(--background-color);
 }
 
-@media screen and (max-width: 480px) {
-  .modal {
-    max-width: 450px;
-    height: 609px;
-  }
-}
-
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 480px) {
   .modal {
     width: 450px;
     height: 609px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
 }
 
@@ -876,7 +869,7 @@ ul {
     line-height: 1.5;
     text-align: center;
     margin-bottom: 12px;
-    width: 370px;
+    max-width: 370px;
   }
   .modal-form__input--name,
   .modal-form__input--tel,

@@ -24,23 +24,18 @@
 }
 .modal {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: var(--background-color);
 }
-@media screen and (max-width: 480px) {
-  .modal {
-    max-width: 450px;
-    height: 609px;
-  }
-}
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 480px) {
   .modal {
     width: 450px;
     height: 609px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
+
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
