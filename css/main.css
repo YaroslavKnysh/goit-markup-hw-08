@@ -1199,7 +1199,6 @@ ul {
     max-width: 450px;
     height: 120px;
     background-color: #f5f4fa;
-    margin-bottom: 30px;
     background-image: url(../images/antenna.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -1240,16 +1239,12 @@ ul {
   .features__description {
     line-height: 1.71;
     color: var(--text-color);
-    margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .features__title {
     text-align: left;
-  }
-  .features__item {
-    width: 354px;
   }
   .features__item.antenna-icon::before {
     content: '';
@@ -1313,7 +1308,6 @@ ul {
   .features__description {
     line-height: 1.71;
     color: var(--text-color);
-    margin-bottom: 30px;
   }
 }
 
@@ -1488,7 +1482,6 @@ ul {
 
 .team__title {
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .team-person__position {
@@ -1587,30 +1580,35 @@ ul {
 @media screen and (max-width: 767px) {
   .team__title {
     font-size: 28px;
-  }
-  .team__list {
-    display: block;
-  }
-  .team__item:not(:last-child) {
     margin-bottom: 30px;
   }
-  .team-social {
-    padding-bottom: 24px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
+}
+
+.team__list {
+  display: block;
+}
+
+.team__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.team-social {
+  padding-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
   .team__title {
     font-size: 28px;
+    margin-bottom: 30px;
   }
   .team-social {
     padding: 0 74px 24px;
@@ -1635,6 +1633,7 @@ ul {
 @media screen and (min-width: 1200px) {
   .team__title {
     font-size: 36px;
+    margin-bottom: 50px;
   }
   .team__list {
     display: -webkit-box;
@@ -2183,7 +2182,7 @@ ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 }
 

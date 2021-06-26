@@ -17,7 +17,7 @@
       max-width: 450px;
       height: 120px;
       background-color: #f5f4fa;
-      margin-bottom: 30px;
+      // margin-bottom: 30px;
       background-image: url(../images/antenna.svg);
       background-repeat: no-repeat;
       background-position: center;
@@ -60,7 +60,6 @@
   .features__description {
     line-height: 1.71;
     color: var(--text-color);
-    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -69,7 +68,7 @@
   }
 
   .features__item {
-    width: 354px;
+    // width: 354px;
 
     &.antenna-icon::before {
       content: '';
@@ -132,7 +131,7 @@
   .features__description {
     line-height: 1.71;
     color: var(--text-color);
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
   }
 }
 
