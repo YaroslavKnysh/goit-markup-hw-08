@@ -172,6 +172,8 @@ ul {
   }
   .header_mobile-menu--container {
     position: relative;
+    width: 100vw;
+    height: 100vh;
   }
   .header_mobile-button--close {
     width: 40px;
@@ -184,8 +186,6 @@ ul {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
     background-color: var(--background-color);
     overflow: auto;
     opacity: 0;
@@ -199,6 +199,11 @@ ul {
     visibility: visible;
     pointer-events: auto;
     z-index: 55;
+  }
+  .contacts_list--mobile-container {
+    position: absolute;
+    left: 40px;
+    bottom: 48px;
   }
   .navigation__link--mobile {
     font-size: 40px;
@@ -216,9 +221,6 @@ ul {
   }
   .navigation__item--mobile:not(:last-child) {
     margin-bottom: 32px;
-  }
-  .contacts_list--mobile {
-    margin-top: 302px;
   }
   .contacts__item--mobile:not(:last-child) {
     margin-bottom: 32px;
