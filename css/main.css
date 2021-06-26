@@ -794,11 +794,10 @@ ul {
 }
 
 .modal-form__title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 12px;
-  width: 448px;
 }
 
 .modal__button--submit {
@@ -876,12 +875,9 @@ ul {
 
 @media screen and (max-width: 480px) {
   .modal-form__title {
-    font-size: 20px;
-    font-weight: 700;
     line-height: 1.5;
     text-align: center;
     margin-bottom: 12px;
-    width: 370px;
   }
   .modal-form__input--name,
   .modal-form__input--tel,
@@ -940,15 +936,8 @@ ul {
     border-radius: 2px;
   }
   .modal-form-container__policy {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    display: inline-block;
+    vertical-align: middle;
   }
   .modal-form__link--policy {
     font-size: 12px;
@@ -983,8 +972,7 @@ ul {
     padding: 40px 38px;
   }
   .modal-form__title {
-    font-size: 20px;
-    font-weight: 700;
+    font-style: 20px;
     line-height: 1.5;
     text-align: center;
     margin-bottom: 12px;
