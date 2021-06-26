@@ -29,8 +29,13 @@
   transform: translate(-50%, -50%);
   background-color: var(--background-color);
 }
-
-@media screen and (max-width:767px) {
+@media screen and (max-width: 480px) {
+  .modal {
+    max-width: 450px;
+    height: 609px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .modal {
     width: 450px;
     height: 609px;

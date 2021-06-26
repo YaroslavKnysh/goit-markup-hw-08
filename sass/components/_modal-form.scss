@@ -66,8 +66,8 @@
     color: var(--text-link-selection);
   }
 }
-//
-@media screen and (max-width:767px) {
+
+@media screen and (max-width: 1199px) {
   .modal-form-container {
     padding: 40px 38px;
   }
@@ -82,7 +82,7 @@
   .modal-form__input--name,
   .modal-form__input--tel,
   .modal-form__input--mail {
-    width: 370px;
+    width: 100%;
     height: 40px;
     margin-top: 4px;
     margin-bottom: 10px;

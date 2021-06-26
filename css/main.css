@@ -111,6 +111,16 @@ ul {
           align-items: center;
 }
 
+.header_mobile-menu--container {
+  padding: 48px 40px;
+}
+
+@media screen and (max-width: 400px) {
+  .header_mobile-menu--container {
+    padding: 48px 10px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .header {
     border-bottom: 1px solid #ececec;
@@ -190,10 +200,6 @@ ul {
     pointer-events: auto;
     z-index: 55;
   }
-  .navigation__list--mobile {
-    padding-top: 48px;
-    padding-left: 40px;
-  }
   .navigation__link--mobile {
     font-size: 40px;
     font-weight: 500;
@@ -213,7 +219,6 @@ ul {
   }
   .contacts_list--mobile {
     margin-top: 302px;
-    padding-left: 40px;
   }
   .contacts__item--mobile:not(:last-child) {
     margin-bottom: 32px;
@@ -232,8 +237,6 @@ ul {
   }
   .social_list--mobile {
     margin-top: 64px;
-    padding-left: 40px;
-    padding-bottom: 48px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -684,8 +687,8 @@ ul {
     padding-bottom: 200px;
     -webkit-box-shadow: 0px 4px 4px 0px #00000040;
             box-shadow: 0px 4px 4px 0px #00000040;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/..images/web_studia_desktop/imghero.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/..images/web_studia_desktop/imghero.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/web_studia_desktop/imghero.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/web_studia_desktop/imghero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -765,7 +768,14 @@ ul {
   background-color: var(--background-color);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
+  .modal {
+    max-width: 450px;
+    height: 609px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .modal {
     width: 450px;
     height: 609px;
@@ -856,7 +866,7 @@ ul {
   color: var(--text-link-selection);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .modal-form-container {
     padding: 40px 38px;
   }
@@ -871,7 +881,7 @@ ul {
   .modal-form__input--name,
   .modal-form__input--tel,
   .modal-form__input--mail {
-    width: 370px;
+    width: 100%;
     height: 40px;
     margin-top: 4px;
     margin-bottom: 10px;
