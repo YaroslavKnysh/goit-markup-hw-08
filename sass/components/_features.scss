@@ -17,7 +17,7 @@
       max-width: 450px;
       height: 120px;
       background-color: #f5f4fa;
-      // margin-bottom: 30px;
+      margin-bottom: 30px;
       background-image: url(../images/antenna.svg);
       background-repeat: no-repeat;
       background-position: center;
@@ -61,7 +61,11 @@
     line-height: 1.71;
     color: var(--text-color);
   }
+  .features__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
+
 @media screen and (min-width: 768px) {
   .features__title {
     text-align: left;

@@ -120,9 +120,6 @@
     font-size: 36px;
     margin-bottom: 50px;
   }
-  .team__list {
-    display: flex;
-  }
 
   .team-social {
     padding: 0 32px 30px;
@@ -131,13 +128,5 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    margin-right: 0;
-    margin-bottom: 0;
-  }
-  .team__item {
-    margin-bottom: 0;
-  }
-  .team__item:not(:last-child) {
-    margin-right: 30px;
   }
 }
