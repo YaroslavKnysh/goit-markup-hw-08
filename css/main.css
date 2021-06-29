@@ -117,7 +117,7 @@ ul {
 
 @media screen and (max-width: 400px) {
   .header_mobile-menu--container {
-    padding: 48px 10px;
+    padding: 48px 15px;
   }
 }
 
@@ -202,8 +202,7 @@ ul {
   }
   .contacts_list--mobile-container {
     position: absolute;
-    left: 40px;
-    bottom: 48px;
+    bottom: 65px;
   }
   .navigation__link--mobile {
     font-size: 40px;
@@ -902,7 +901,7 @@ ul {
     outline: none;
   }
   .modal-form__label--policy {
-    font-size: 12px;
+    font-size: 10px;
     color: #757575;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -2143,6 +2142,9 @@ ul {
     margin-bottom: 50px;
   }
   .filter__item:first-child {
+    margin-bottom: 15px;
+  }
+  .filter__item:nth-child(3) {
     margin-bottom: 15px;
   }
 }

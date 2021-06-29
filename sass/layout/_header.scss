@@ -10,7 +10,7 @@
 }
 @media screen and (max-width: 400px) {
   .header_mobile-menu--container {
-    padding: 48px 10px;
+    padding: 48px 15px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -87,8 +87,7 @@
   }
   .contacts_list--mobile-container {
     position: absolute;
-    left: 40px;
-    bottom: 48px;
+    bottom: 65px;
   }
   // .navigation__list--mobile {
   //   padding-top: 48px;
